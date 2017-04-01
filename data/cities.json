@@ -1,0 +1,127 @@
+[
+  {
+    "city": "Atlanta",
+    "country": "USA",
+    "image": "http://i.imgur.com/kcjvuqj.jpg"
+  },
+  {
+    "city": "New Orleans",
+    "country": "USA",
+    "image": "https://s-media-cache-ak0.pinimg.com/originals/e5/32/62/e5326242c2ddd182c779fab644dbf3b8.jpg"
+  },
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "image": "http://i.imgur.com/PjsJLuO.png"
+  },
+  {
+    "city": "Chicago",
+    "country": "USA",
+    "image": "http://i.imgur.com/JSJULFx.jpg"
+  },
+  {
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "image": "http://i.imgur.com/6BHjImr.jpg"
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "image": "http://i.imgur.com/gpybKhe.jpg"
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "image": "http://i.imgur.com/UMfFF7R.jpg"
+  },
+  {
+    "city": "Paris",
+    "country": "France",
+    "image": "http://i.imgur.com/V2pk1Y7.jpg"
+  },
+  {
+    "city": "New York City",
+    "country": "USA",
+    "image": "http://i.imgur.com/S2nuYY3.jpg"
+  },
+  {
+    "city": "Seoul",
+    "country": "South Korea",
+    "image": "http://cc3dmrkorea.dothome.co.kr/wp-content/uploads/2015/07/Seoul02.jpg"
+  },
+  {
+    "city": "Miami",
+    "country": "USA",
+    "image": "http://i.imgur.com/7v4A3CR.jpg"
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "image": "http://www.hotelroomsearch.net/im/city/shanghai-china-1.jpg"
+  },
+  {
+    "city": "Las Vegas",
+    "country": "USA",
+    "image": "http://i.imgur.com/nZh5wqA.jpg"
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "image": "http://iamaileen.com/wp-content/uploads/2014/11/things-to-do-in-amsterdam-netherlands3.jpg"
+  },
+  {
+    "city": "Los Angeles",
+    "country": "USA",
+    "image": "https://www.locumjobsonline.com/blog/wp-content/uploads/2013/02/Photoxpress_6150432.jpg"
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "image": "http://ccercle.com/wp-content/uploads/2016/12/Tokyo.jpg"
+  },
+  {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "image": "http://dougdvorak.com/wp-content/uploads/2016/09/Johannesburg.jpg"
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "image": "https://s3.eu-central-1.amazonaws.com/locationscoutnet/images/2015-01/berlin-skyline-germany-jqn8_l.jpeg"
+  },
+  {
+    "city": "Mumbai",
+    "country": "India",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Mumbai_Skyline_at_Night.jpg"
+  },
+  {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ciudad.Mexico.City.Distrito.Federal.DF.Reforma.Skyline.jpg"
+  },
+  {
+    "city": "San Francisco",
+    "country": "USA",
+    "image": "http://i.imgur.com/mXRNNpy.jpg"
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sydney_skyline_at_dusk_-_Dec_2008.jpg"
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "image": "http://www.city-data.com/forum/attachments/city-vs-city/105240d1356338901-greater-downtown-toronto-vs-greater-downtown-toronto-skyline-night-view.jpg"
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "image": "http://buenosaires.casa.education/wp-content/uploads/2016/01/Congress_Plaza_Buenos_Aires_at_Sunset.jpg"
+  },
+  {
+    "city": "Honolulu",
+    "country": "USA",
+    "image": "http://2rtc4526hbwi3y99tr2sm2dc.wpengine.netdna-cdn.com/wp-content/uploads/sites/8/2013/08/Aqua_Skyline_at_Island_Colony_View_Header.jpg"
+  }
+]

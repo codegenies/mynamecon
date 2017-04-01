@@ -1,0 +1,344 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #efefef;
+}
+
+.bg-blue {
+  background-image: url('http://i.imgur.com/sqcVHW9.jpg');
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: white;
+}
+
+img.logo {
+  width: 70%;
+  max-width: 478px;
+  margin-bottom: 40px;
+}
+.border-box {
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+.input-lg {
+    height: 60px;
+    padding: 10px 16px;
+    margin: 20px 0 20px 0;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.input {
+  display: flex;
+  align-items: center;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #999;
+    opacity: 0.4;
+}
+
+.lead {
+  font-weight: bold;
+}
+
+h3.description {
+  font-size: 1.45em;
+  font-family: 'Lato', sans-serif;
+  line-height: 140%;
+  margin: 0 0 30px 0;
+  letter-spacing: 0.05em;
+}
+
+h2.description {
+  font-family: 'Lato', sans-serif;
+  line-height: 140%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  /* color: #0f5186; */
+}
+
+#home {
+  padding: 50px;
+}
+#home form h1 {
+  font-size: 48px;
+  margin: 30px;
+}
+
+#home form button {
+  width: 100%;
+  padding: 20px;
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 4px;
+  /* color: #ffed8b; */
+  margin: 20px auto;
+  font-size: 1.4em;
+  font-weight: bolder;
+  letter-spacing: 0.04em;
+}
+
+#loading-mask {
+  position: fixed;
+  z-index: 100;
+  background-color: #333;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#loading {
+  position: fixed;
+  z-index: 101;
+  top: 50%;
+  left: 50%;
+  margin: -75px 0 0 -150px;
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  border-radius: 4px;
+  line-height: 144px;
+  font-size: 18px;
+}
+
+#error {
+  padding: 50px;
+}
+
+#error div.message {
+  padding: 20px;
+  margin: 50px 100px;
+  color: #333;
+  background-color: #efefef;
+  border-radius: 4px;
+}
+#error div.message h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+#error div.message h3 {
+  line-height: 30px;
+}
+
+#event div.jumbotron-wrapper {
+  background-color: #111;
+  height: 400px;
+}
+#event div.jumbotron-wrapper div.jumbotron.cover {
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+  color: white;
+  opacity: 0.5;
+  background-color: #111;
+}
+
+#event div.jumbotron-wrapper div.jumbotron.info {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background: none;
+  top: 0;
+  padding-top: 100px;
+  color: white;
+}
+#event div.jumbotron h1 {
+  font-weight: bold;
+}
+
+.fill {
+  padding: 80px 150px;
+}
+.white {
+  background-color: white;
+}
+.blue {
+  background-color: #2368e4;
+  color: white;
+}
+
+#event div.intro {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+span.label.label-info {
+  background-color: #2368e4;
+}
+
+#event div.tickets {
+}
+#event div.tickets button.ticket {
+  background-color: #2368e4;
+  padding: 30px 50px;
+  border-radius: 4px;
+  color: white;
+  border: 0;
+  margin: 20px 0 0 0;
+}
+#event div.tickets button.ticket:hover, #event div.tickets button.ticket:active {
+  background-color: #2368e4;
+}
+#event div.tickets button.ticket h3 {
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+#event div.tickets button.ticket p {
+  padding: 0;
+  margin: 0;
+  font-size: 0.8em;
+}
+
+#event div.schedule {
+}
+#event div.schedule .no-top {
+  margin-top: 0;
+}
+#event div.schedule hr {
+  background-color: #ddd;
+  height: 1px;
+  margin-top: 50px;
+}
+#event div.schedule h3 {
+  margin: 50px;
+}
+#event div.schedule h4 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-weight: bold;
+  line-height: 26px;
+}
+#event div.schedule div.row {
+  margin: 20px 0;
+}
+#event div.schedule div.time {
+  margin-top: 39px;
+  text-align: right;
+  font-weight: bold;
+}
+#event div.schedule div.event {
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  padding-right: 200px;
+}
+
+#event div.speakers {
+}
+#event div.speakers div.speaker {
+  background-color: #eee;
+  border-radius: 4px;
+  padding: 30px;
+  margin: 20px 10px;
+  height: 180px;
+}
+#event div.speakers div.speaker div.title {
+  margin: 10px;
+}
+#event div.speakers div.speaker strong {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#event footer {
+  background-color: #333;
+  font-size: 11px;
+  color: white;
+}
+#event footer a {
+  color: #2196f3;
+}
+
+@media only screen and (max-width: 992px) {
+  #home {
+    padding: 10px;
+  }
+  #home form {
+    padding: 20px 10px;
+  }
+  #home form h1 {
+    font-size: 24px;
+    margin: 20px;
+  }
+  #home form button {
+    font-size: 14px;
+  }
+  #home form p {
+    font-size: 16px;
+  }
+
+  #error div.message {
+    margin: 40px;
+  }
+
+  #event div.jumbotron-wrapper {
+    height: 300px;
+  }
+  #event div.jumbotron-wrapper div.jumbotron.cover {
+    background-position: top center;
+    background-size: cover;
+    height: 300px;
+  }
+  #event div.jumbotron-wrapper div.jumbotron.info {
+    padding-top: 60px;
+  }
+  .fill {
+    padding: 40px;
+  }
+  #event div.tickets button.ticket {
+    padding: 20px;
+  }
+  #event div.tickets button.ticket h3 {
+    font-size: 20px;
+  }
+  #event div.tickets button.ticket p {
+    font-size: 0.6em;
+  }
+  #event div.speakers div.speaker {
+    height: auto;
+  }
+  #event div.schedule div.event {
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 50px;
+  }
+}
+@media only screen and (max-width: 766px) {
+  h2.description {
+    font-size: 1.3em;
+  }
+  h3.description {
+    font-size: 1.2em;
+  }
+  #error div.message {
+    margin: 40px 20px;
+  }
+
+  #event div.schedule h3 {
+    margin: 10px;
+  }
+  #event div.schedule div.row {
+    margin: 10px 0;
+  }
+  #event div.schedule div.time {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: normal;
+    opacity: 0.8;
+  }
+  #event div.schedule div.event {
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 0;
+  }
+}

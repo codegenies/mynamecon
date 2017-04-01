@@ -1,0 +1,33 @@
+{
+  "name": "mynamecon",
+  "version": "0.1.0",
+  "description": "This is a tool that generates a random convention based on your first name.",
+  "main": "handler.js",
+  "scripts": {
+    "start": "serverless invoke local -f namecon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codegenies/mynamecon.git"
+  },
+  "keywords": [
+    "name",
+    "convention",
+    "random"
+  ],
+  "author": "Drew Morris <dhmorris@gmail.com> (http://github.com/drewry)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codegenies/mynamecon/issues"
+  },
+  "homepage": "https://github.com/codegenies/mynamecon#readme",
+  "devDependencies": {
+    "cheerio": "^0.22.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.32.0",
+    "handlebars": "^4.0.6",
+    "moment": "^2.18.1",
+    "underscore": "^1.8.3"
+  }
+}

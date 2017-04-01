@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{name}}Con 2017</title>
+    <meta name="description" content="{{name}}Con 2017 - Have you ever wanted to participate in a convention with people that have the same name as you? Well now you can!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="event">
+      <div class="jumbotron-wrapper">
+        <div class="jumbotron cover" style="background-image: url({{image}})"></div>
+        <div class="jumbotron info">
+          <h1>{{name}}Con 2017</h1>
+          <p class="date">{{date}}</p>
+          <p class="city">{{city}}</p>
+        </div>
+      </div>
+      <div class="intro fill white">
+        <div class="container">
+          <h3 class="lead">Welcome to {{name}}Con 2017. The world's only convention where you can meet other people named {{name}}. Discover a whole new world of being {{name}}. Make a friend. Share a laugh! All of this is possible and more at {{name}}Con 2017!</h3>
+        </div>
+      </div>
+      <div class="tickets fill">
+        <h2>Buy Tickets</h2>
+        <button class="ticket">
+          <h3>FREE w/ proof of {{name}}ness</h3>
+          <p>Please bring a valid form of ID to prove that you are a {{name}}.</p>
+        </button>
+      </div>
+      <div class="speakers fill white">
+        <h2>Speakers</h2>
+        <div class="container">
+          <div class="row">
+            {{#each speakers}}
+              <div class="col-md-4">
+                <div class="speaker">
+                  <strong>{{this.name}}</strong>
+                  <div class="title"><span class="label label-info">{{this.occupation}}</span></div>
+                  <p>{{this.name}} is known for {{this.knownFor}}. Has been a {{../name}} since {{this.birth}}.</p>
+                </div>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="schedule fill blue">
+        <div class="container">
+          <!-- Friday  -->
+          <h3 class="no-top">Friday - {{friday}}</h3>
+          <div class="row">
+            <div class="col-sm-4 time">10 AM - NOON</div>
+            <div class="col-sm-8 event">
+              <h4>Introduction</h4>
+              <p>Every year we kick off {{name}}Con with a bang! This talk will cover some of the highlights from last year as well as some of the top things to look for this year.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 time">NOON - 1 PM</div>
+            <div class="col-sm-8 event">
+              <h4>Lunch</h4>
+              <p>Lunch will be provided which is included with your ticket. We will have an array of vegetarian and non-vegetarian options available.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 time">1 PM - 2 PM</div>
+            <div class="col-sm-8 event">
+              <h4>Top Achievements by a {{name}} in 2016</h4>
+              <p>Each year we celebrate the achievements that we all have made. It's important to recognize that {{name}}s all across the world are having a meaningful impact. Let's honor our fellow {{name}} achievements together!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 time">2 PM - 5 PM</div>
+            <div class="col-sm-8 event">
+              <h4>The {{name}}Con 2017 General Assembly</h4>
+              <p>Every year we hold an assembly for electors to hold some of the most key positions that will affect every {{name}} on the planet. It is a critical process which need every {{name}} for participation. Nominations will be held at the beginning, followed by an election and concludes with a ceremony as the new electors come into office.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 time">5 PM to 6 PM</div>
+            <div class="col-sm-8 event">
+              <h4>{{name}} Social Hour</h4>
+              <p>Let's all get together and socialize. Find another {{name}} and spark up a conversation!</p>
+            </div>
+          </div>
+          <!-- Saturday -->
+          <hr />
+          <h3>Saturday - {{saturday}}</h3>
+          <div class="row">
+            <div class="col-sm-4 time">10 AM - 11 AM</div>
+            <div class="col-sm-8 event">
+              <h4>Networking with {{name}}</h4>
+              <p>As a {{name}}, we should all stick stick together. Do you have a unique business opportunity and are looking for a special {{name}}? Come and network, who knows what you will find!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 time">11 AM - NOON</div>
+            <div class="col-sm-8 event">
+              <h4>Has this happened to you?</h4>
+              <p>Do you have a funny story that happened because you were named {{name}}? Our panelist will share their experiences and  will open the floor for the audience to share their own memorable stories.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 time">NOON - 1 PM</div>
+            <div class="col-sm-8 event">
+              <h4>Lunch</h4>
+              <p>Lunch will be provided which is included with your ticket. We will have an array of vegetarian and non-vegetarian options available.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 time">1 PM - 2 PM</div>
+            <div class="col-sm-8 event">
+              <h4>The Daily Struggles of being {{name}}</h4>
+              <p>What sort of challenges do you typically run into being {{name}}? We will hear from our panelists as they discuss some of the top challenges we all face each day.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 time">2 PM - 5 PM</div>
+            <div class="col-sm-8 event">
+              <h4>The State of the {{name}} Address</h4>
+              <p>Every year we hold our State of the {{name}} Address where an honored {{name}} will address the world-wide community of {{name}}.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 time">5 PM until whenever</div>
+            <div class="col-sm-8 event">
+              <h4>After-party</h4>
+              <p>We will close out {{name}}Con 2017 with an after-party. Listen out for the location towards the end of the State of the {{name}} address!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sponsors fill white">
+        <h3>Sponsors</h3>
+        <p>Thank you to our sponsors!</p>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- My Name Con -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:100%;max-width:728px;height:90px"
+             data-ad-client="ca-pub-8830547920146563"
+             data-ad-slot="2785827797"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <footer class="fill">
+        This April Fool's day experience has been brought to you by <a href="http://github.com/codegenies" target="_blank">Code Genies</a>.
+      </footer>
+    </div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-27610419-11', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
